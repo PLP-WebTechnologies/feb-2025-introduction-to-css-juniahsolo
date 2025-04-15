@@ -1,0 +1,83 @@
+/* Universal Selector (Selector 1) - Applies to all elements */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    /* Default font */
+}
+
+
+/* ID Selector (Selector 2) - Styles the header */
+
+#main-header {
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    /* White text */
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #45a049;
+    /* Darker green border */
+}
+
+
+/* Class Selector (Selector 3) - Styles sections */
+
+.content-section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    /* Light gray background */
+    border: 1px solid #ddd;
+    /* Light gray border */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+
+/* Class Selector for highlighted text */
+
+.highlight {
+    color: #e91e63;
+    /* Pink text */
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    /* Different font */
+}
+
+
+/* Styles for the image container */
+
+.image-container {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 2px dashed #4CAF50;
+    /* Dashed green border */
+}
+
+
+/* Styles for the image itself */
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* Rounded corners for the image */
+}
+
+
+/* Footer styling */
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    /* Dark background */
+    color: white;
+    /* White text */
+    margin-top: 20px;
+}
